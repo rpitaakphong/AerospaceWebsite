@@ -1,0 +1,469 @@
+.aero-home{--red:#b5122b;--red-dark:#8f0e22;--ink:#202329;--muted:#60666d;--soft:#f6f6f4;--line:#e6e5e2;--white:#fff;--shadow:0 20px 60px rgba(32,35,41,.08)}
+.aero-home *,.aero-home *::before,.aero-home *::after{box-sizing:border-box}
+.aero-home{scroll-behavior:smooth}
+.aero-home{margin:0;background:var(--white);color:var(--ink);font-family:Manrope,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.aero-home img{display:block;max-width:100%}
+.aero-home a{color:inherit;text-decoration:none}
+.aero-home button{font:inherit}
+.aero-home :focus-visible{outline:3px solid var(--red);outline-offset:4px}
+.aero-home ::selection{background:#f2c8ce;color:#35141a}
+.aero-home .shell{width:min(100% - 80px,1320px);margin-inline:auto}
+.aero-home .section{position:relative}
+.aero-home .skip-link{position:absolute;z-index:99;left:16px;top:-60px;padding:10px 16px;background:var(--red);color:#fff;border-radius:6px}
+.aero-home .skip-link:focus{top:16px}
+.aero-home .site-header{background:#fff;border-bottom:1px solid #ecebea;position:relative;z-index:20}
+.aero-home .site-header__inner{display:flex;align-items:center;justify-content:space-between;min-height:82px;gap:24px}
+.aero-home .brand{display:flex;align-items:center;flex:0 0 auto;gap:10px;min-width:0}
+.aero-home .brand img{object-fit:contain}
+.aero-home .brand__type{display:flex;flex-direction:column;gap:3px;white-space:nowrap}
+.aero-home .brand__type strong{font-size:11px;line-height:1.2;font-weight:800;letter-spacing:-.02em}
+.aero-home .brand__type strong span{color:var(--red)}
+.aero-home .brand__type small{font-size:9px;line-height:1.2;color:#4f5358;letter-spacing:.02em}
+.aero-home .primary-nav{display:flex;align-items:center;gap:clamp(10px,1.4vw,20px);min-width:0;white-space:nowrap}
+.aero-home .primary-nav>a{font-size:11px;font-weight:700;color:#4c5156;transition:color .2s ease}
+.aero-home .primary-nav>a:hover,.aero-home .primary-nav>a[aria-current="page"]{color:var(--red)}
+.aero-home .primary-nav .primary-nav__feature{display:inline-flex;align-items:center;justify-content:center;background:var(--red);color:#fff;border-radius:999px;padding:10px 15px;box-shadow:0 6px 16px rgba(181,18,43,.18);margin-left:4px;transition:background .2s,box-shadow .2s,transform .2s}
+.aero-home .primary-nav .primary-nav__feature:hover,.aero-home .primary-nav .primary-nav__feature:focus-visible{background:var(--red-dark);color:#fff;box-shadow:0 8px 22px rgba(181,18,43,.25);transform:translateY(-1px)}
+.aero-home .menu-toggle{display:none}
+.aero-home .eyebrow,.aero-home .small-label,.aero-home .feature-label,.aero-home .photo-index,.aero-home .learning-card__number,.aero-home .capstone-feature__micro{font-family:"DM Mono",monospace;font-weight:500;letter-spacing:.14em;text-transform:uppercase}
+.aero-home .eyebrow{display:flex;align-items:center;gap:11px;color:var(--red);font-size:10px;line-height:1.6;margin:0 0 28px}
+.aero-home .eyebrow__line{width:22px;height:2px;background:currentColor;flex:0 0 auto}
+.aero-home h1,.aero-home h2,.aero-home h3,.aero-home p,.aero-home figure{margin-top:0}
+.aero-home h1,.aero-home h2,.aero-home h3{letter-spacing:-.06em}
+.aero-home h1{font-size:clamp(54px,5.6vw,86px);line-height:1.03;font-weight:800;margin-bottom:30px}
+.aero-home h1 em,.aero-home h2 em{font-style:normal;color:var(--red)}
+.aero-home h2{font-size:clamp(42px,4.2vw,66px);line-height:1.1;font-weight:800;margin-bottom:0}
+.aero-home h3{font-weight:800}
+.aero-home .button-row{display:flex;align-items:center;gap:28px;flex-wrap:wrap}
+.aero-home .button{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-height:52px;padding:14px 20px;border-radius:7px;font-size:12px;font-weight:800;transition:background .2s,transform .2s,box-shadow .2s}
+.aero-home .button span{font-size:18px;font-weight:500;line-height:1}
+.aero-home .button--red{background:var(--red);color:#fff;box-shadow:0 8px 20px rgba(181,18,43,.15)}
+.aero-home .button--red:hover,.aero-home .button--red:focus-visible{background:var(--red-dark);color:#fff;transform:translateY(-2px);box-shadow:0 12px 28px rgba(181,18,43,.24)}
+.aero-home .button--white{background:#fff;color:var(--red)}
+.aero-home .button--white:hover{background:#f2e5e6}
+.aero-home .text-link{display:inline-flex;align-items:center;gap:18px;border-bottom:1px solid currentColor;padding-bottom:5px;font-size:12px;font-weight:800;transition:color .2s,gap .2s}
+.aero-home .text-link span{font-size:17px;font-weight:500}
+.aero-home .text-link:hover{color:var(--red);gap:23px}
+.aero-home .text-link--red{color:var(--red)}
+.aero-home .text-link--red:hover{color:var(--red-dark)}
+.aero-home .hero{background:linear-gradient(90deg,#fff 52%,#fbfaf9 100%);overflow:hidden}
+.aero-home .hero__grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.91fr);align-items:center;gap:clamp(55px,5vw,90px);min-height:670px;padding-block:72px 84px}
+.aero-home .hero__copy{position:relative;z-index:1}
+.aero-home .hero__lede{max-width:530px;font-size:17px;line-height:1.85;color:#565b60;margin-bottom:34px}
+.aero-home .hero__footnote{display:flex;align-items:center;gap:10px;margin:48px 0 0;font-size:10px;font-weight:700;color:#74787c;letter-spacing:.02em}
+.aero-home .hero__footnote-mark{width:6px;height:6px;background:var(--red);border-radius:50%;flex:0 0 auto}
+.aero-home .hero__visual{position:relative;margin:0;align-self:stretch;min-height:530px;isolation:isolate}
+.aero-home .hero__visual::before{content:"";position:absolute;inset:18px -18px -18px 18px;border:1px solid #e5d4d7;z-index:-1}
+.aero-home .hero__visual>img{width:100%;height:100%;object-fit:cover;object-position:53% center;filter:saturate(.94)}
+.aero-home .hero__visual figcaption{position:absolute;bottom:20px;left:-20px;right:20px;display:flex;align-items:center;gap:12px;background:#fff;padding:14px 17px;box-shadow:var(--shadow);font-size:11px;font-weight:700}
+.aero-home .hero__visual figcaption>span:first-child{font-family:"DM Mono",monospace;color:var(--red);font-size:9px;text-transform:uppercase;letter-spacing:.13em}
+.aero-home .figcaption-arrow{margin-left:auto;color:var(--red);font-size:18px}
+.aero-home .learning{padding-block:110px 122px;background:#fff}
+.aero-home .section-heading{display:flex;align-items:end;justify-content:space-between;gap:60px;margin-bottom:42px}
+.aero-home .section-heading>div{flex:1 1 auto}
+.aero-home .section-heading .eyebrow{margin-bottom:22px}
+.aero-home .section-heading>p{max-width:370px;flex:0 1 370px;margin:0 0 7px;color:var(--muted);font-size:14px;line-height:1.85}
+.aero-home .section-heading--compact{margin-bottom:48px}
+.aero-home .learning__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.aero-home .learning-card{position:relative;display:flex;flex-direction:column;min-height:318px;padding:30px 34px 28px 0;transition:background .2s,padding .2s}
+.aero-home .learning-card:not(:last-child){border-right:1px solid var(--line);margin-right:34px}
+.aero-home .learning-card:hover{background:#fbf7f7;padding-left:14px}
+.aero-home .learning-card__number{font-size:10px;color:var(--red);margin-bottom:31px}
+.aero-home .learning-card__icon{position:absolute;right:39px;top:25px;font-size:28px;line-height:1;color:#d6c7c9;font-weight:400}
+.aero-home .learning-card h3{font-size:25px;line-height:1.3;margin-bottom:12px;max-width:260px}
+.aero-home .learning-card p{font-size:13px;line-height:1.75;color:var(--muted);max-width:280px;margin-bottom:26px}
+.aero-home .card-arrow{display:flex;align-items:center;gap:12px;margin-top:auto;font-size:11px;font-weight:800;color:var(--red)}
+.aero-home .card-arrow>span{font-size:16px;font-weight:500;transition:transform .2s}
+.aero-home a:hover .card-arrow>span{transform:translate(3px,-3px)}
+.aero-home .in-practice{background:var(--soft);padding-block:104px}
+.aero-home .in-practice__grid{display:grid;grid-template-columns:1fr .85fr;align-items:center;gap:clamp(60px,8vw,130px)}
+.aero-home .in-practice__photo{position:relative;height:500px}
+.aero-home .in-practice__photo img{width:100%;height:100%;object-fit:cover;object-position:center 42%}
+.aero-home .photo-index{position:absolute;left:0;bottom:0;background:var(--red);color:#fff;font-size:9px;padding:14px 18px}
+.aero-home .in-practice__copy{max-width:490px}
+.aero-home .in-practice__copy .eyebrow{margin-bottom:24px}
+.aero-home .in-practice__copy h2{font-size:clamp(38px,3.4vw,55px);margin-bottom:24px}
+.aero-home .in-practice__copy p:not(.eyebrow){font-size:15px;line-height:1.9;color:var(--muted);margin-bottom:29px}
+.aero-home .student-work{padding-block:115px 125px;background:#fff}
+.aero-home .capstone-feature{display:grid;grid-template-columns:.92fr 1.08fr;min-height:430px;background:#831124;color:#fff;overflow:hidden}
+.aero-home .capstone-feature__copy{display:flex;flex-direction:column;align-items:flex-start;padding:52px clamp(32px,5vw,70px);background:radial-gradient(circle at 100% 100%,#b5122b 0%,#831124 66%)}
+.aero-home .feature-label{font-size:9px;color:#f8cbd3;margin-bottom:43px}
+.aero-home .capstone-feature h3{font-size:clamp(34px,3.15vw,49px);line-height:1.12;margin-bottom:20px}
+.aero-home .capstone-feature p{max-width:400px;color:#f3e4e7;font-size:14px;line-height:1.85;margin-bottom:25px}
+.aero-home .capstone-feature .button{margin-bottom:20px;min-height:45px;padding:11px 16px}
+.aero-home .capstone-feature__micro{font-size:8px;color:#deb4bb;margin-top:auto;padding-top:16px}
+.aero-home .capstone-feature__image{min-height:430px;overflow:hidden;background:#dfd9d4}
+.aero-home .capstone-feature__image img{width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .5s}
+.aero-home .capstone-feature:hover .capstone-feature__image img{transform:scale(1.035)}
+.aero-home .team-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin-top:28px}
+.aero-home .team-card{display:grid;grid-template-columns:44% 56%;min-height:212px;background:var(--soft);overflow:hidden}
+.aero-home .team-card__image{overflow:hidden}
+.aero-home .team-card__image img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.aero-home .team-card:hover img{transform:scale(1.04)}
+.aero-home .team-card__copy{display:flex;flex-direction:column;padding:28px 28px 25px}
+.aero-home .small-label{font-size:9px;line-height:1.6;color:var(--red)}
+.aero-home .team-card h3{font-size:22px;line-height:1.25;margin:13px 0 20px}
+.aero-home .path{padding-block:110px 125px;background:var(--soft)}
+.aero-home .path__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.aero-home .path-card{background:#fff;min-width:0;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.aero-home .path-card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+.aero-home .path-card__image{aspect-ratio:1.4;overflow:hidden;background:#ddd}
+.aero-home .path-card__image img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.aero-home .path-card:hover img{transform:scale(1.04)}
+.aero-home .path-card__body{padding:28px 28px 31px;min-height:206px}
+.aero-home .path-card h3{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:26px;line-height:1.2;margin:12px 0 13px}
+.aero-home .path-card h3 span{color:var(--red);font-size:21px;font-weight:400}
+.aero-home .path-card p{font-size:12px;line-height:1.75;color:var(--muted);margin-bottom:0}
+.aero-home .news{padding-block:114px 125px}
+.aero-home .section-heading--news{align-items:end}
+.aero-home .section-heading--news .text-link{flex:0 0 auto;margin-bottom:10px}
+.aero-home .news__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.aero-home .news-card{min-width:0;display:flex;flex-direction:column;border:1px solid var(--line);background:#fff;transition:box-shadow .2s,transform .2s}
+.aero-home .news-card:hover{box-shadow:var(--shadow);transform:translateY(-4px)}
+.aero-home .news-card__image{aspect-ratio:1.55;overflow:hidden;background:var(--soft)}
+.aero-home .news-card__image img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.aero-home .news-card:hover img{transform:scale(1.035)}
+.aero-home .news-card__body{display:flex;flex-direction:column;flex:1;padding:26px 27px 27px;min-height:210px}
+.aero-home .news-card h3{font-size:19px;line-height:1.4;letter-spacing:-.035em;margin:13px 0 28px}
+.aero-home .admissions{padding-block:96px;background:#f6f6f4;border-top:1px solid var(--line)}
+.aero-home .admissions__grid{display:grid;grid-template-columns:1fr .55fr;align-items:end;gap:70px}
+.aero-home .admissions h2{font-size:clamp(48px,5vw,78px)}
+.aero-home .admissions__action{padding-bottom:7px}
+.aero-home .admissions__action p{font-size:16px;line-height:1.8;color:var(--muted);margin-bottom:25px}
+.aero-home .site-footer{background:#22252a;color:#f5f5f5;padding-top:74px}
+.aero-home .site-footer__grid{display:grid;grid-template-columns:1.4fr .7fr 1fr;gap:70px;padding-bottom:65px}
+.aero-home .site-footer__grid>div{display:flex;flex-direction:column;align-items:flex-start}
+.aero-home .site-footer__grid img{object-fit:contain;margin-bottom:16px;background:#fff;border-radius:50%}
+.aero-home .site-footer h2{font-size:20px;line-height:1.3;margin-bottom:15px;letter-spacing:-.03em}
+.aero-home .site-footer h3{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f7a4b1;margin-bottom:24px}
+.aero-home .site-footer p,.aero-home .site-footer a{font-size:12px;line-height:2;color:#c9cbcd;margin-bottom:0}
+.aero-home .site-footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:4px}
+.aero-home .site-footer__bottom{display:flex;justify-content:space-between;gap:20px;border-top:1px solid #44484d;padding-block:20px;color:#999da0;font-size:10px}
+.aero-home .site-footer__bottom a{color:#c9cbcd}
+@media(max-width:1270px){.aero-home .shell{width:min(100% - 64px,1320px)}
+.aero-home .brand__type strong{font-size:9px}
+.aero-home .brand__type small{font-size:8px}
+.aero-home .primary-nav{gap:10px}
+.aero-home .primary-nav>a{font-size:10px}
+.aero-home .primary-nav .primary-nav__feature{padding:9px 11px}
+.aero-home .hero__grid{gap:45px}
+}
+@media(max-width:1060px){.aero-home .site-header__inner{min-height:72px}
+.aero-home .brand__type strong{font-size:10px}
+.aero-home .brand__type small{font-size:8px}
+.aero-home .menu-toggle{display:flex;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;padding:9px;border:1px solid var(--line);border-radius:6px;background:#fff;cursor:pointer}
+.aero-home .menu-toggle span{height:2px;width:100%;background:var(--ink);transition:transform .2s}
+.aero-home .primary-nav{display:none;position:absolute;left:0;right:0;top:100%;padding:18px 32px 25px;white-space:normal;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 20px 25px rgba(0,0,0,.08);flex-direction:column;align-items:stretch;gap:0}
+.aero-home .primary-nav.is-open{display:flex}
+.aero-home .primary-nav>a{font-size:13px;padding:11px 0;border-bottom:1px solid var(--line)}
+.aero-home .primary-nav .primary-nav__feature{align-self:flex-start;margin:18px 0 0;padding:12px 17px;border:0}
+.aero-home .hero__grid{grid-template-columns:1fr 1fr;min-height:590px;padding-block:60px 72px}
+.aero-home .hero__visual{min-height:470px}
+.aero-home .hero__lede{font-size:15px}
+.aero-home .hero__footnote{margin-top:34px}
+}
+@media(max-width:850px){.aero-home .shell{width:min(100% - 48px,1320px)}
+.aero-home .hero__grid{grid-template-columns:1fr;gap:44px;padding-block:62px 70px}
+.aero-home .hero__copy{max-width:650px}
+.aero-home .hero__visual{width:100%;height:400px;min-height:0;align-self:auto}
+.aero-home .hero__visual>img{object-position:center 40%}
+.aero-home .hero__footnote{margin-top:26px}
+.aero-home .section-heading{gap:30px}
+.aero-home .section-heading>p{max-width:300px;font-size:13px}
+.aero-home .learning{padding-block:80px}
+.aero-home .learning-card{padding-right:22px;min-height:340px}
+.aero-home .learning-card:not(:last-child){margin-right:16px}
+.aero-home .learning-card h3{font-size:21px}
+.aero-home .learning-card__icon{right:21px}
+.aero-home .in-practice{padding-block:75px}
+.aero-home .in-practice__grid{gap:45px}
+.aero-home .in-practice__photo{height:440px}
+.aero-home .in-practice__copy h2{font-size:38px}
+.aero-home .capstone-feature{grid-template-columns:1fr 1fr}
+.aero-home .capstone-feature__copy{padding:37px 32px}
+.aero-home .capstone-feature h3{font-size:34px}
+.aero-home .team-card{grid-template-columns:1fr}
+.aero-home .team-card__image{height:185px}
+.aero-home .team-card__copy{min-height:190px}
+.aero-home .path-card__body{padding:20px;min-height:235px}
+.aero-home .path-card h3{font-size:22px}
+.aero-home .news-card__body{padding:21px;min-height:220px}
+.aero-home .news-card h3{font-size:17px}
+.aero-home .admissions__grid{grid-template-columns:1fr 1fr;gap:32px}
+}
+@media(max-width:650px){.aero-home .shell{width:min(100% - 36px,1320px)}
+.aero-home .site-header__inner{min-height:67px}
+.aero-home .brand img{width:38px;height:38px}
+.aero-home .brand__type strong{font-size:9px}
+.aero-home .brand__type small{font-size:8px}
+.aero-home .hero__grid{padding-block:52px 64px;gap:35px}
+.aero-home .hero .eyebrow{font-size:9px;margin-bottom:23px}
+.aero-home .hero h1{font-size:clamp(48px,11vw,68px);margin-bottom:24px}
+.aero-home .hero__lede{font-size:15px;line-height:1.75;margin-bottom:26px}
+.aero-home .hero__footnote{font-size:9px;line-height:1.5}
+.aero-home .hero__visual{height:340px}
+.aero-home .hero__visual::before{inset:10px -9px -9px 9px}
+.aero-home .hero__visual figcaption{left:0;right:10px;bottom:13px;padding:10px 12px;gap:8px;font-size:9px}
+.aero-home .hero__visual figcaption>span:first-child{font-size:8px}
+.aero-home .button-row{gap:20px}
+.aero-home .button{min-height:48px}
+.aero-home .section-heading{display:block;margin-bottom:32px}
+.aero-home .section-heading .eyebrow{margin-bottom:18px}
+.aero-home .section-heading h2{font-size:42px}
+.aero-home .section-heading>p{max-width:580px;margin:20px 0 0;font-size:13px}
+.aero-home .learning{padding-block:77px 80px}
+.aero-home .learning__grid{display:block}
+.aero-home .learning-card{min-height:0;padding:25px 6px 29px 0}
+.aero-home .learning-card:not(:last-child){border-right:0;border-bottom:1px solid var(--line);margin-right:0}
+.aero-home .learning-card__number{margin-bottom:18px}
+.aero-home .learning-card h3{max-width:none;font-size:23px}
+.aero-home .learning-card p{max-width:none;margin-bottom:17px}
+.aero-home .learning-card__icon{top:23px;right:6px}
+.aero-home .in-practice{padding-block:65px}
+.aero-home .in-practice__grid{grid-template-columns:1fr;gap:38px}
+.aero-home .in-practice__photo{height:340px}
+.aero-home .in-practice__copy h2{font-size:42px}
+.aero-home .student-work{padding-block:77px 83px}
+.aero-home .capstone-feature{grid-template-columns:1fr}
+.aero-home .capstone-feature__copy{padding:35px 27px 33px}
+.aero-home .feature-label{margin-bottom:28px}
+.aero-home .capstone-feature h3{font-size:34px}
+.aero-home .capstone-feature__image{min-height:0;height:270px}
+.aero-home .team-grid{grid-template-columns:1fr;gap:18px;margin-top:18px}
+.aero-home .team-card{grid-template-columns:43% 57%;min-height:175px}
+.aero-home .team-card__image{height:auto}
+.aero-home .team-card__copy{min-height:175px;padding:22px}
+.aero-home .team-card h3{font-size:19px}
+.aero-home .path{padding-block:75px 80px}
+.aero-home .path__grid{grid-template-columns:1fr;gap:18px}
+.aero-home .path-card{display:grid;grid-template-columns:41% 59%;min-height:170px}
+.aero-home .path-card__image{aspect-ratio:auto;height:100%}
+.aero-home .path-card__body{min-height:0;padding:20px}
+.aero-home .path-card h3{font-size:22px;margin:8px 0}
+.aero-home .path-card p{font-size:11px}
+.aero-home .news{padding-block:76px 82px}
+.aero-home .section-heading--news .text-link{margin:24px 0 0}
+.aero-home .news__grid{grid-template-columns:1fr;gap:18px}
+.aero-home .news-card{display:grid;grid-template-columns:42% 58%;min-height:156px}
+.aero-home .news-card__image{aspect-ratio:auto;height:100%}
+.aero-home .news-card__body{min-height:0;padding:19px}
+.aero-home .news-card h3{font-size:15px;line-height:1.35;margin:8px 0 15px}
+.aero-home .news-card .small-label{font-size:8px}
+.aero-home .admissions{padding-block:75px}
+.aero-home .admissions__grid{grid-template-columns:1fr;gap:29px}
+.aero-home .admissions h2{font-size:50px}
+.aero-home .admissions__action p{font-size:14px}
+.aero-home .site-footer{padding-top:60px}
+.aero-home .site-footer__grid{grid-template-columns:1fr 1fr;gap:35px 25px;padding-bottom:50px}
+.aero-home .site-footer__grid>div:first-child{grid-column:1/-1}
+.aero-home .site-footer__bottom{font-size:9px}
+}
+@media(max-width:430px){.aero-home .brand__type{max-width:235px}
+.aero-home .brand__type strong{font-size:8px;white-space:normal}
+.aero-home .brand__type small{font-size:7px}
+.aero-home .hero__visual{height:315px}
+.aero-home .hero__visual figcaption{font-size:8px}
+.aero-home .hero__visual figcaption>span:first-child{font-size:7px}
+.aero-home .hero h1{font-size:51px}
+.aero-home .hero__lede{font-size:14px}
+.aero-home .team-card{grid-template-columns:38% 62%}
+.aero-home .team-card__copy{padding:17px}
+.aero-home .team-card h3{font-size:17px}
+.aero-home .team-card .small-label{font-size:7px}
+.aero-home .path-card{grid-template-columns:38% 62%}
+.aero-home .path-card__body{padding:15px}
+.aero-home .path-card h3{font-size:19px}
+.aero-home .path-card p{font-size:10px}
+.aero-home .news-card{grid-template-columns:38% 62%}
+.aero-home .news-card__body{padding:15px}
+.aero-home .news-card h3{font-size:14px}
+.aero-home .news-card .card-arrow{font-size:10px}
+.aero-home .admissions h2{font-size:46px}
+.aero-home .site-footer__grid{grid-template-columns:1fr;gap:28px}
+.aero-home .site-footer__grid>div:first-child{grid-column:auto}
+}
+@media(prefers-reduced-motion:reduce){.aero-home{scroll-behavior:auto}
+.aero-home *,.aero-home *::before,.aero-home *::after{transition-duration:.01ms!important;animation-duration:.01ms!important}
+}
+
+
+.aero-home .hero--mosaic{
+  background: #fff;
+  overflow: hidden;
+}
+.aero-home .hero-mosaic__inner{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, clamp(430px, 42vw, 610px));
+  align-items: center;
+  gap: clamp(38px, 4vw, 62px);
+  min-height: 700px;
+  padding-block: 32px;
+}
+.aero-home .hero-mosaic__copy{ min-width: 0; max-width: 610px; }
+.aero-home .hero-mosaic__copy .eyebrow{ margin-bottom: 35px; font-size: 10px; line-height: 1.7; letter-spacing: .09em; }
+.aero-home .hero--mosaic h1{
+  margin: 0 0 30px;
+  font-size: clamp(43px, 3.6vw, 55px);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -.055em;
+}
+.aero-home .hero--mosaic h1 > span{ display: block; text-wrap: balance; }
+.aero-home .hero--mosaic h1 em{ color: var(--red); font-style: normal; }
+.aero-home .hero-mosaic__intro{ max-width: 500px; margin: 0 0 33px; color: #42464e; font-size: 17px; line-height: 1.75; }
+.aero-home .hero-mosaic__actions{ display: flex; align-items: center; flex-wrap: wrap; gap: 21px; }
+.aero-home .hero-mosaic__actions .button{ min-height: 52px; border-radius: 999px; padding-inline: 22px; font-size: 12px; gap: 23px; }
+.aero-home .hero-mosaic__actions .text-link{ font-size: 12px; gap: 12px; }
+.aero-home .hero-mosaic__visuals{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: 230px 180px 180px;
+  gap: 14px;
+  min-width: 0;
+}
+.aero-home .hero-mosaic__tile{
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #dbe4eb;
+}
+.aero-home .hero-mosaic__tile img{ display: block; width: 100%; height: 100%; object-fit: cover; }
+.aero-home .hero-mosaic__tile--marslex-lead{ grid-column: 1 / -1; }
+.aero-home .hero-mosaic__tile--marslex-lead img{ object-position: center 8%; }
+.aero-home .hero-mosaic__tile--cuhar{ grid-column: 1; grid-row: 2 / 4; }
+.aero-home .hero-mosaic__tile--cuhar img{ object-position: 52% 50%; }
+.aero-home .hero-mosaic__tile--students{ grid-column: 2; grid-row: 2; }
+.aero-home .hero-mosaic__tile--students img{ object-position: 50% 42%; }
+.aero-home .hero-mosaic__tile--engineering{ grid-column: 2; grid-row: 3; }
+.aero-home .hero-mosaic__tile--engineering img{ object-position: 50% 48%; }
+.aero-home .hero-mosaic__tile.is-unavailable img{ visibility: hidden; }
+.aero-home .hero-mosaic__tile.is-unavailable{ background: linear-gradient(135deg, #e9eef1, #d5e0e6); }
+@media (max-width: 1100px) and (min-width: 981px){.aero-home .hero-mosaic__inner{ gap: 32px; }
+.aero-home .hero-mosaic__visuals{ grid-template-rows: 205px 165px 165px; gap: 13px; }
+.aero-home .hero--mosaic h1{ font-size: 43px; }
+.aero-home .hero-mosaic__intro{ font-size: 15px; }
+
+}
+@media (max-width: 980px){.aero-home .hero-mosaic__inner{ display: block; min-height: 0; padding-block: 56px 62px; }
+.aero-home .hero-mosaic__copy{ max-width: 700px; }
+.aero-home .hero-mosaic__copy .eyebrow{ margin-bottom: 24px; }
+.aero-home .hero--mosaic h1{ font-size: clamp(43px, 6vw, 56px); margin-bottom: 23px; }
+.aero-home .hero-mosaic__intro{ max-width: 550px; margin-bottom: 23px; }
+.aero-home .hero-mosaic__visuals{ margin-top: 40px; grid-template-rows: 210px 185px 185px; gap: 13px; }
+
+}
+@media (max-width: 600px){.aero-home .hero-mosaic__inner{ padding-block: 42px 55px; }
+.aero-home .hero-mosaic__copy .eyebrow{ margin-bottom: 24px; font-size: 8px; }
+.aero-home .hero--mosaic h1{ font-size: clamp(39px, 10.3vw, 48px); margin-bottom: 22px; }
+.aero-home .hero-mosaic__intro{ font-size: 14px; line-height: 1.75; margin-bottom: 22px; }
+.aero-home .hero-mosaic__actions{ gap: 16px; }
+.aero-home .hero-mosaic__actions .button{ min-height: 48px; font-size: 10px; }
+.aero-home .hero-mosaic__visuals{ grid-template-columns: 1fr; grid-template-rows: none; gap: 12px; margin-top: 37px; }
+.aero-home .hero-mosaic__tile{ grid-column: auto; grid-row: auto; height: 190px; border-radius: 14px; }
+.aero-home .hero-mosaic__tile--marslex-lead{ height: 185px; }
+.aero-home .hero-mosaic__tile--cuhar{ height: 210px; }
+
+}
+
+
+.aero-home .accreditation{
+  background: var(--soft);
+  padding-block: clamp(34px, 4vw, 58px);
+}
+.aero-home .accreditation__card{
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(220px, .75fr) minmax(0, 1.55fr);
+  gap: clamp(38px, 5vw, 82px);
+  overflow: hidden;
+  isolation: isolate;
+  background: #fff;
+  border: 1px solid #e7dfe0;
+  border-left: 7px solid var(--red);
+  border-radius: 13px;
+  box-shadow: 0 20px 50px rgba(32, 35, 41, .055);
+  padding: clamp(32px, 4vw, 54px) clamp(32px, 4.8vw, 64px);
+}
+.aero-home .accreditation__card::after{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 275px;
+  height: 190px;
+  right: -70px;
+  top: -80px;
+  transform: rotate(-27deg);
+  background: repeating-linear-gradient(90deg, transparent 0 24px, rgba(181, 18, 43, .07) 24px 25px);
+  pointer-events: none;
+}
+.aero-home .accreditation__identity{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 0;
+  border-right: 1px solid #e8e2e2;
+  padding-right: clamp(24px, 3vw, 45px);
+}
+.aero-home .accreditation__identity-label,.aero-home .accreditation__eyebrow{
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.aero-home .accreditation__identity-label{ color: var(--red); }
+.aero-home .accreditation__logo{
+  display: block;
+  width: min(100%, 360px);
+  height: auto;
+  margin-top: 14px;
+}
+.aero-home .accreditation__content{ min-width: 0; }
+.aero-home .accreditation__eyebrow{ margin: 0 0 13px; color: var(--red); }
+.aero-home .accreditation__content h2{
+  margin: 0 0 17px;
+  font-size: clamp(28px, 2.9vw, 42px);
+  line-height: 1.13;
+  letter-spacing: -.055em;
+}
+.aero-home .accreditation__statement{
+  max-width: 730px;
+  margin: 0 0 22px;
+  color: #4e5359;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.aero-home .accreditation__link{ font-size: 12px; }
+@media (max-width: 900px){.aero-home .accreditation__card{ grid-template-columns: 1fr; gap: 27px; padding: 32px; }
+.aero-home .accreditation__identity{ border-right: 0; border-bottom: 1px solid #e8e2e2; padding: 0 0 22px; }
+.aero-home .accreditation__logo{ width: min(100%, 340px); }
+.aero-home .accreditation__content h2{ font-size: 30px; }
+.aero-home .accreditation__statement{ font-size: 13px; }
+
+}
+@media (max-width: 650px){.aero-home .accreditation{ padding-block: 24px; }
+.aero-home .accreditation__card{ display: block; padding: 27px 24px 31px; border-left-width: 5px; }
+.aero-home .accreditation__identity{ display: block; padding-bottom: 18px; margin-bottom: 24px; }
+.aero-home .accreditation__logo{ width: min(100%, 300px); margin-top: 11px; }
+.aero-home .accreditation__eyebrow{ font-size: 9px; }
+.aero-home .accreditation__content h2{ font-size: clamp(27px, 7vw, 33px); }
+.aero-home .accreditation__statement{ font-size: 13px; line-height: 1.75; }
+
+}
+
+
+/* All content rules are scoped; existing site navigation and footer are not restyled. */
+.aero-home { width: 100%; max-width: none; margin: 0; padding: 0; overflow-x: clip; }
+.aero-home h1,.aero-home h2,.aero-home h3 { font-family: Manrope,Arial,sans-serif; text-transform: none; color: var(--ink); }
+.aero-home p { font-family: Manrope,Arial,sans-serif; }
+.aero-home figure { margin: 0; }
+.aero-home .capstone-feature h3 { color: #fff; }
+.aero-home a { text-decoration: none; }
+.aero-home .news-image-placeholder { display: flex; height: 100%; min-height: 160px; align-items: center; justify-content: center; color: var(--red); font: 12px 'DM Mono',monospace; }
+.aero-home .news-empty { grid-column: 1/-1; color: var(--muted); }
+.aero-home .hero-mosaic__tile img { border-radius: 0; }

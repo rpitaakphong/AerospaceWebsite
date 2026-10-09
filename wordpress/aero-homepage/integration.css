@@ -1,0 +1,10 @@
+/* All content rules are scoped; existing site navigation and footer are not restyled. */
+.aero-home { width: 100%; max-width: none; margin: 0; padding: 0; overflow-x: clip; }
+.aero-home h1,.aero-home h2,.aero-home h3 { font-family: Manrope,Arial,sans-serif; text-transform: none; color: var(--ink); }
+.aero-home p { font-family: Manrope,Arial,sans-serif; }
+.aero-home figure { margin: 0; }
+.aero-home .capstone-feature h3 { color: #fff; }
+.aero-home a { text-decoration: none; }
+.aero-home .news-image-placeholder { display: flex; height: 100%; min-height: 160px; align-items: center; justify-content: center; color: var(--red); font: 12px 'DM Mono',monospace; }
+.aero-home .news-empty { grid-column: 1/-1; color: var(--muted); }
+.aero-home .hero-mosaic__tile img { border-radius: 0; }
