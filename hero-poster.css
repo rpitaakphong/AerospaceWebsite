@@ -1,0 +1,110 @@
+/* Poster hero: scoped separately so the rest of the homepage keeps its styles. */
+.hero--poster {
+  height: 748px;
+  overflow: hidden;
+  isolation: isolate;
+  background: #fff;
+}
+.hero-poster__heading { position: relative; z-index: 3; padding-top: 26px; }
+.hero-poster__heading .eyebrow { justify-content: center; margin-bottom: 12px; font-size: 9px; letter-spacing: .17em; }
+.hero-poster__divider { color: #aaa6a7; margin-inline: 3px; }
+.hero--poster h1 {
+  margin: 0;
+  color: #202329;
+  font-size: clamp(112px, 12.45vw, 188px);
+  font-weight: 800;
+  letter-spacing: -.075em;
+  line-height: .94;
+  text-align: center;
+  padding-right: .075em;
+}
+.hero-poster__content { position: relative; z-index: 3; display: flex; justify-content: space-between; align-items: flex-start; gap: 30px; margin-top: 28px; }
+.hero-poster__statement { width: 320px; }
+.hero-poster__statement h2 { font-size: 45px; line-height: 1.08; letter-spacing: -.065em; }
+.hero-poster__statement h2 em { white-space: nowrap; }
+.hero-poster__line { display: block; }
+.hero-poster__programme { margin: 21px 0 0; max-width: 230px; font-family: 'DM Mono', monospace; font-size: 9px; line-height: 1.7; text-transform: uppercase; letter-spacing: .1em; color: #68646a; }
+.hero-poster__intro { width: 328px; padding-top: 2px; }
+.hero-poster__intro > p { font-size: 13px; line-height: 1.8; color: #60636a; margin-bottom: 21px; }
+.hero-poster__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 17px 22px; }
+.hero-poster__actions .button { min-height: 46px; border-radius: 999px; padding: 12px 18px; gap: 24px; font-size: 11px; box-shadow: none; }
+.hero-poster__actions .text-link { font-size: 11px; gap: 14px; }
+.hero-poster__stage { position: absolute; inset: 0; z-index: 1; pointer-events: none; }
+.hero-poster__band { position: absolute; inset: auto 0 0; height: 210px; overflow: hidden; background: #202329; }
+.hero-poster__ribbon { display: flex; position: absolute; left: -5%; width: 110%; align-items: center; justify-content: center; gap: 30px; height: 49px; white-space: nowrap; transform: rotate(-6deg); transform-origin: center; }
+.hero-poster__ribbon > span { display: inline-flex; align-items: center; gap: 26px; flex-shrink: 0; font-size: 20px; font-weight: 800; letter-spacing: -.025em; }
+.hero-poster__ribbon b { font-size: 23px; line-height: 1; font-weight: 400; }
+.hero-poster__ribbon--red { top: 37px; background: #b5122b; color: #fff; }
+.hero-poster__ribbon--coral { top: 130px; background: #f3b8b4; color: #202329; }
+.hero-poster__figure { position: absolute; width: min(61vw, 760px); left: 50%; bottom: 37px; transform: translateX(-50%); margin: 0; z-index: 2; }
+.hero-poster__art { display: block; width: 100%; height: auto; object-fit: contain; }
+.hero-poster__art.is-unavailable { visibility: hidden; }
+.hero-poster__figure figcaption { display: flex; justify-content: center; align-items: center; gap: 13px; position: absolute; bottom: -22px; left: 50%; transform: translateX(-50%); white-space: nowrap; background: #202329; color: #fff; padding: 7px 12px; border-radius: 3px; }
+.hero-poster__figure figcaption > span { font-family: 'DM Mono', monospace; font-size: 7px; color: #e7b4b9; letter-spacing: .09em; }
+.hero-poster__figure figcaption strong { font-size: 9px; font-weight: 700; letter-spacing: .025em; }
+.hero-poster__figure figcaption i { font-style: normal; color: #f3b8b4; margin-inline: 5px; }
+
+/* Desktop: give the project artwork more weight than the display lettering. */
+@media (min-width: 980px) {
+  .hero--poster { height: 760px; }
+  .hero--poster h1 { font-size: clamp(90px, 7.4vw, 112px); }
+  .hero-poster__content { margin-top: 40px; }
+  .hero-poster__statement { width: 280px; }
+  .hero-poster__statement h2 { font-size: 36px; }
+  .hero-poster__figure { width: min(76vw, 930px); bottom: 0; }
+  .hero-poster__figure figcaption { bottom: 12px; }
+}
+
+@media (min-width: 980px) and (max-width: 1200px) {
+  .hero--poster { height: 720px; }
+  .hero-poster__statement { width: 255px; }
+  .hero-poster__statement h2 { font-size: 32px; }
+  .hero-poster__intro { width: 270px; }
+  .hero-poster__intro > p { font-size: 12px; }
+  .hero-poster__figure { width: min(82vw, 840px); }
+  .hero-poster__actions { gap: 16px; }
+}
+
+@media (max-width: 979px) {
+  .hero--poster { height: auto; }
+  .hero-poster__heading { padding-top: 31px; }
+  .hero--poster h1 { font-size: 12vw; line-height: 1; }
+  .hero-poster__content { margin-top: 27px; gap: 36px; }
+  .hero-poster__statement { width: auto; flex: 1; }
+  .hero-poster__statement h2 { font-size: clamp(32px, 5vw, 45px); }
+  .hero-poster__programme { margin-top: 16px; font-size: 8px; }
+  .hero-poster__intro { width: auto; flex: 1; }
+  .hero-poster__stage { position: relative; inset: auto; height: calc(min(100vw - 32px, 760px) * .666667 + 48px); margin-top: 16px; }
+  .hero-poster__figure { width: min(100% - 32px, 760px); bottom: 36px; }
+  .hero-poster__band { height: 41%; min-height: 170px; }
+  .hero-poster__ribbon { transform: rotate(-4deg); height: 44px; }
+  .hero-poster__ribbon > span { font-size: 17px; gap: 20px; }
+  .hero-poster__ribbon--red { top: 23%; }
+  .hero-poster__ribbon--coral { top: 67%; }
+}
+
+@media (max-width: 560px) {
+  .hero-poster__heading { padding-top: 27px; }
+  .hero-poster__heading .eyebrow { font-size: 7px; gap: 8px; margin-bottom: 15px; letter-spacing: .1em; }
+  .hero--poster h1 { font-size: 12.2vw; letter-spacing: -.07em; padding-right: .07em; }
+  .hero-poster__content { display: block; margin-top: 26px; }
+  .hero-poster__statement h2 { font-size: 35px; max-width: 340px; }
+  .hero-poster__line { display: inline; margin-right: .1em; }
+  .hero-poster__programme { display: none; }
+  .hero-poster__intro { margin-top: 17px; }
+  .hero-poster__intro > p { font-size: 12px; line-height: 1.75; margin-bottom: 19px; max-width: 410px; }
+  .hero-poster__actions { gap: 18px; }
+  .hero-poster__actions .button { min-height: 46px; font-size: 10px; gap: 17px; padding-inline: 16px; }
+  .hero-poster__actions .text-link { font-size: 10px; gap: 10px; }
+  .hero-poster__stage { margin-top: 28px; height: calc((100vw - 8px) * .666667 + 38px); }
+  .hero-poster__figure { width: calc(100% - 8px); bottom: 31px; }
+  .hero-poster__band { height: 48%; min-height: 0; }
+  .hero-poster__ribbon { height: 30px; transform: rotate(-3deg); gap: 18px; }
+  .hero-poster__ribbon > span { font-size: 12px; gap: 15px; }
+  .hero-poster__ribbon b { font-size: 16px; }
+  .hero-poster__ribbon--red { top: 20%; }
+  .hero-poster__ribbon--coral { top: 60%; }
+  .hero-poster__figure figcaption { gap: 8px; bottom: -20px; padding: 6px 8px; }
+  .hero-poster__figure figcaption > span { font-size: 6px; }
+  .hero-poster__figure figcaption strong { font-size: 8px; }
+}

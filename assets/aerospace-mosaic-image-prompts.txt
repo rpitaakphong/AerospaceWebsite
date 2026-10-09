@@ -1,0 +1,35 @@
+Generation method: built-in image_gen tool.
+CUFA-II report reference: /Users/pitaakphong/Library/CloudStorage/Dropbox/0.Chula Work/2025/14_CUFA/CUHAR-Technical-Report-ACC26-D1.1.pdf
+
+CUFA-II concept panel prompt:
+Use case: stylized-concept
+Asset type: website hero mosaic tile, CUFA-II student aircraft concept illustration
+Primary request: Make a realistic editorial aerospace illustration of the CUFA-II student-built fixed-wing aircraft described in its technical report. One complete small remote-controlled twin-motor cargo competition airplane in flight, with a rectangular constant-chord main wing, two compact electric motor nacelles and propellers, a compact cargo fuselage, and a conventional single vertical and horizontal tail. Plausible engineering proportions for a 1.776-meter wingspan aircraft; make the geometry understandable and mechanically credible. This is a CONCEPT ILLUSTRATION, not a claim of a photographed finished aircraft.
+Scene/backdrop: open blue sky with a touch of warm late-afternoon light, clean uncluttered atmosphere.
+Style/medium: polished photorealistic editorial 3D render with real material texture, not cartoonish.
+Composition/framing: landscape crop suitable for a rounded website image panel; aircraft large and fully visible in a three-quarter view, generous but controlled breathing room around the wings and tail.
+Lighting/mood: crisp daylight with warm edge highlights, visually cohesive with a blue-sky rocket launch photograph and a warm Mars rotorcraft concept image.
+Color palette: blue sky, silver-white airframe, small restrained Chula-red accent surfaces, dark propellers.
+Constraints: no text, no numbers, no logos, no flags, no watermarks, no extra aircraft, no invented features. No implausible extra tails, wings, motors, or propellers.
+
+Composite lead panel prompt:
+Use case: stylized-concept
+Asset type: wide lead image for a university Aerospace Engineering homepage photo mosaic
+Primary request: Create one coherent cinematic editorial composite image featuring THREE recognizable student engineering concepts: CUHAR sounding rocket, MarsLex rotorcraft, and CUFA-II twin-motor fixed-wing cargo aircraft.
+Input images: Image 1 is a visual design reference for the CUHAR rocket: extremely slender white pointed upper body, black lower tube, tiny fins, narrow flame. Image 2 is a visual design reference for the MarsLex rotorcraft: four long arms and four rotors, metallic cylindrical body, upright dark-blue rectangular solar panel, spindly landing legs. Image 3 is the just-created CUFA-II concept reference: small two-propeller rectangular-wing aircraft with conventional single vertical tail, compact cargo fuselage. Preserve these distinct forms; do not copy logos or text.
+Scene/backdrop: an imaginative shared aerospace-design tableau with a luminous blue-to-coral sky and faint rocky horizon; clearly a concept composite, not a purported documentary scene.
+Style/medium: sophisticated photorealistic editorial 3D composite with believable materials and matched lighting. Visually exciting but clean enough for a refined white university website.
+Composition/framing: PANORAMIC HORIZONTAL image designed for an approximately 4:1 website crop. Arrange all three subjects across the CENTER HORIZONTAL BAND: MarsLex at left, launched CUHAR rocket near center, CUFA-II at right. Make the rocket slender but clearly visible. Keep all important aircraft/rotor/rocket parts within the central 45% of the canvas HEIGHT so cropping away the top and bottom leaves the vehicles intact. Use strong large silhouettes, no tiny distant subjects. Leave small margins at left and right. No text overlay is needed.
+Lighting/mood: vivid cobalt blue and restrained warm orange/coral, exciting, authentic engineering atmosphere.
+Constraints: exactly one CUHAR rocket, one MarsLex rotorcraft, and one CUFA-II airplane; no other vehicles, no people, no text, no numbers, no logos, no flags, no watermark, no extra fins/tails/motors/rotors, no physically impossible morphing between vehicles.
+
+Engineering design panel prompt (built-in image_gen, source: engineering-design-source.png):
+Use case: stylized-concept
+Asset type: small landscape image panel in an aerospace engineering university homepage mosaic
+Primary request: Generate a sophisticated AI-created engineering graphic illustrating the process of designing an aircraft, clearly an illustration rather than a photograph.
+Scene/backdrop: a light, warm-white drafting surface with a faint technical grid.
+Subject: one coherent modern experimental fixed-wing aircraft design shown as a precise three-quarter CAD-style model, with a few clean exploded structural components and sparse aerodynamic flow lines around it.
+Style/medium: polished editorial technical illustration combining realistic 3D metallic materials with fine red drafting lines; restrained, visually legible even in a small card.
+Composition/framing: wide 16:9 landscape, aircraft centered, complete wings and tail in frame, no cropping of the main design; visual detail concentrated in the center.
+Color palette: charcoal and aluminum with Chula red accents and off-white ground, matching a clean university site.
+Constraints: no words, letters, numerals, logos, watermarks, interface controls, fake equations, people, or invented technical specifications.

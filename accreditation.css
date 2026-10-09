@@ -1,0 +1,96 @@
+/* Editorial ABET announcement between the homepage hero and learning section. */
+.accreditation {
+  background: var(--soft);
+  padding-block: clamp(34px, 4vw, 58px);
+}
+
+.accreditation__card {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(220px, .75fr) minmax(0, 1.55fr);
+  gap: clamp(38px, 5vw, 82px);
+  overflow: hidden;
+  isolation: isolate;
+  background: #fff;
+  border: 1px solid #e7dfe0;
+  border-left: 7px solid var(--red);
+  border-radius: 13px;
+  box-shadow: 0 20px 50px rgba(32, 35, 41, .055);
+  padding: clamp(32px, 4vw, 54px) clamp(32px, 4.8vw, 64px);
+}
+
+.accreditation__card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 275px;
+  height: 190px;
+  right: -70px;
+  top: -80px;
+  transform: rotate(-27deg);
+  background: repeating-linear-gradient(90deg, transparent 0 24px, rgba(181, 18, 43, .07) 24px 25px);
+  pointer-events: none;
+}
+
+.accreditation__identity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 0;
+  border-right: 1px solid #e8e2e2;
+  padding-right: clamp(24px, 3vw, 45px);
+}
+
+.accreditation__identity-label,
+.accreditation__eyebrow {
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.accreditation__identity-label { color: var(--red); }
+.accreditation__logo {
+  display: block;
+  width: min(100%, 360px);
+  height: auto;
+  margin-top: 14px;
+}
+
+.accreditation__content { min-width: 0; }
+.accreditation__eyebrow { margin: 0 0 13px; color: var(--red); }
+.accreditation__content h2 {
+  margin: 0 0 17px;
+  font-size: clamp(28px, 2.9vw, 42px);
+  line-height: 1.13;
+  letter-spacing: -.055em;
+}
+.accreditation__statement {
+  max-width: 730px;
+  margin: 0 0 22px;
+  color: #4e5359;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.accreditation__link { font-size: 12px; }
+
+@media (max-width: 900px) {
+  .accreditation__card { grid-template-columns: 1fr; gap: 27px; padding: 32px; }
+  .accreditation__identity { border-right: 0; border-bottom: 1px solid #e8e2e2; padding: 0 0 22px; }
+  .accreditation__logo { width: min(100%, 340px); }
+  .accreditation__content h2 { font-size: 30px; }
+  .accreditation__statement { font-size: 13px; }
+}
+
+@media (max-width: 650px) {
+  .accreditation { padding-block: 24px; }
+  .accreditation__card { display: block; padding: 27px 24px 31px; border-left-width: 5px; }
+  .accreditation__identity { display: block; padding-bottom: 18px; margin-bottom: 24px; }
+  .accreditation__logo { width: min(100%, 300px); margin-top: 11px; }
+  .accreditation__eyebrow { font-size: 9px; }
+  .accreditation__content h2 { font-size: clamp(27px, 7vw, 33px); }
+  .accreditation__statement { font-size: 13px; line-height: 1.75; }
+}
