@@ -1,0 +1,187 @@
+[
+  {
+    "id": "emergensea",
+    "name": "EmergenSEA",
+    "category": "Disaster response",
+    "title": "Amphibious aircraft for emergency evacuation",
+    "subtitle": "Taking evacuation beyond the runway.",
+    "summary": "EmergenSEA explores how an amphibious transport aircraft could evacuate people from islands, coastal communities and flooded regions. The team combined a high-wing flying-boat configuration with a planing hull and retractable stabilizing floats, bringing together aerodynamic, structural and water-operation design in a single rescue platform.",
+    "metrics": [
+      [
+        "317 kt",
+        "Calculated cruise speed"
+      ],
+      [
+        "1,705 m",
+        "Calculated water takeoff"
+      ],
+      [
+        "1,380 km",
+        "Reported full-load range"
+      ]
+    ],
+    "approach": "The design uses a twin-turboprop, T-tail configuration informed by the ATR 72 and Airbus C295. NACA 2412 wings, NACA 0012 stabilizers and a primarily carbon-fiber structure were assessed through aerodynamic CFD, structural loading and flight-performance calculations. Pressurization, emergency transport and water-landing loads shaped the integrated design.",
+    "results": "The report calculates takeoff distances of 1,705 m from water and 1,468 m from a runway, both below the 1,800 m target. Structural analyses report no safety factor below 1.2 in the evaluated cases. The final full-load range of 1,380 km falls short of the original 2,000 km target; the reported 30,300 kg design accommodates 24 seated passengers and six stretcher patients, plus eight personnel.",
+    "next": "Further work focuses on reducing drag, increasing range, reducing aircraft mass and improving CFD mesh fidelity. These are design and analysis results; the summary does not report a flight-tested aircraft.",
+    "team": [
+      "Naphat Boonkla",
+      "Nuttapach Teerasukaporn",
+      "Tawin Kosawad",
+      "Punyapat Pungprasertying",
+      "Wataka Sivasondhivat"
+    ],
+    "advisor": "Pinunta Rojratsirikul",
+    "source": "CapstoneDesignSummary - EmergenSea.pdf",
+    "pages": "1–3",
+    "caption": "EmergenSEA amphibious rescue aircraft flying above an island community.",
+    "status": "Integrated aircraft design and analysis"
+  },
+  {
+    "id": "marslex",
+    "name": "MarsLex",
+    "category": "Space exploration",
+    "title": "A drone for Martian polar ice sampling",
+    "subtitle": "A flying partner for a rover on the ice.",
+    "summary": "MarsLex proposes a quadcopter that can reach ice-sampling sites near the Martian north pole, drill into the surface and return samples to an accompanying rover. The project connects rotor design for a thin atmosphere with a deployable drill, thermal protection, solar charging and rover communications.",
+    "metrics": [
+      [
+        "2.18 g",
+        "Designed sample collection"
+      ],
+      [
+        "35 N",
+        "Calculated hover thrust"
+      ],
+      [
+        "−78.5 °C",
+        "Drilling-test ice temperature"
+      ]
+    ],
+    "approach": "The sampling mechanism combines a tungsten-carbide drill with a polycrystalline-diamond tip, an anchoring collector and induction heating. Carbon-fiber arms and titanium landing components support the drill and solar array. Aerodynamic sizing, structural and thermal FEA, link-budget calculations and power-system design address the coupled demands of flight and sampling.",
+    "results": "A dedicated drilling rig tested ice cooled to −78.5 °C using dry ice. The report gives a measured torque of 0.1501 ± 0.1195 N·m and estimates a roughly 42-second drilling operation from the experimental values. Rotor analysis predicts 35 N combined hover thrust at approximately 1,450 W. A 1.5 km rover link is supported by the calculated communications budget.",
+    "next": "The drilling test provides subsystem evidence, while full-aircraft operation in a Martian environment remains to be validated. Future work includes rotor testing, improved drilling measurements, environmental verification of avionics and power systems, and full six-degree-of-freedom flight dynamics.",
+    "team": [
+      "Dhanuchpo Junthothai",
+      "Thanaporn Piromvard",
+      "Pannakorn Bumrungjid",
+      "Mananchaya Sriboonkerd"
+    ],
+    "advisor": "Joshua Staubs",
+    "source": "CapstoneDesignSummary - MarsLex.pdf",
+    "pages": "1–3",
+    "caption": "MarsLex solar-powered rotorcraft concept operating on the Martian surface.",
+    "status": "Integrated design with drill subsystem testing"
+  },
+  {
+    "id": "shadow",
+    "name": "SHADOW",
+    "category": "Space exploration",
+    "title": "A lunar hopper for permanently shadowed regions",
+    "subtitle": "Hop into the darkness. Bring the science back.",
+    "summary": "SHADOW investigates a reusable lunar hopper that can enter permanently shadowed polar craters, collect local measurements and return to a sunlit staging area. By hopping across steep or loose terrain, the concept aims to access locations that are difficult for conventional rovers and connect volatile measurements with temperature and terrain observations.",
+    "metrics": [
+      [
+        "1,000",
+        "Monte Carlo iterations"
+      ],
+      [
+        "±0.125 m",
+        "95% modeled landing accuracy"
+      ],
+      [
+        "1.6",
+        "Minimum structural safety factor"
+      ]
+    ],
+    "approach": "The mission concept stages near de Gerlache-TL and combines ballistic hops with hover-assisted motion. Four side-mounted thrusters use a HAN-based monopropellant architecture. The team modeled trajectory and landing control in MATLAB/Simulink, developed a gas-bellows landing absorber, and sized power, thermal and S-band relay communications systems. An electric-ducted-fan hardware-in-the-loop testbed is proposed for control validation.",
+    "results": "A 1,000-iteration Monte Carlo study reports 95% of landings within ±0.125 m of the target under modeled uncertainty. Mission simulations support six hops in one operating scenario and four in another, with approximately 16 kg of propellant remaining. A conservative landing-load analysis considers 9,400 N and reports a minimum safety factor of 1.6.",
+    "next": "Next steps include extending the current three-degree-of-freedom model to full six-degree-of-freedom dynamics, experimentally verifying thruster transients and landing absorbers, improving structural margin, and integrating sensors into hardware-in-the-loop tests. Lunar operations and water detection have not been demonstrated by this work.",
+    "team": [
+      "Korrawach Sakornphanich",
+      "Kongphom Farwaeroj",
+      "Phraj Phogate",
+      "Mumin Waealee",
+      "Urassaya Kachasakul"
+    ],
+    "advisor": "Pitaakphong Rattanagraikanakorn and Joshua Staubs",
+    "source": "CapstoneDesignSummary - Shadow.pdf",
+    "pages": "1–3",
+    "caption": "SHADOW lunar hopper concept on the Moon with Earth above the horizon.",
+    "status": "Lunar mission concept and subsystem simulation"
+  },
+  {
+    "id": "survi-drone",
+    "name": "SURVI-DRONE",
+    "category": "Disaster response",
+    "title": "An air-and-water drone for rescue reconnaissance",
+    "subtitle": "One platform for dry passages and flooded caves.",
+    "summary": "SURVI-DRONE addresses search-and-rescue environments that alternate between air and water. The team developed an amphibious unmanned vehicle concept for inspecting flooded caves, tunnels and disaster sites, aiming to reduce the need for rescue personnel to enter hazardous passages before conditions are understood.",
+    "metrics": [
+      [
+        "≤3 kg",
+        "Design mass limit"
+      ],
+      [
+        "10 m",
+        "Required operating depth"
+      ],
+      [
+        "5 m/s",
+        "Aerial speed requirement"
+      ]
+    ],
+    "approach": "The compact design combines aerial and underwater propulsion with a protected electronics package, lighting and a camera. The team used CAD, aerodynamic and hydrodynamic CFD, structural FEA and propulsion sizing to assess feasibility. MATLAB/Simulink PID models address aerial stability, while automated Inventor and Python tools examine submersible stability.",
+    "results": "The summary reports that selected propellers and thrusters can overcome the modeled air and water resistance, and that structural stresses remain below allowable limits in the evaluated loading cases. Performance verification is based on analytical calculations and simulation; the report does not provide measured flight, diving or transition-test results.",
+    "next": "Future work includes more complete underwater dynamic-stability modeling, tether management and emergency recovery, collision protection, improved navigation and sensor integration, and structural optimization. The depth, mass and speed figures are design requirements rather than demonstrated field performance.",
+    "team": [
+      "Prinn Chiewpanich",
+      "Pongpat Tarinamornpong",
+      "Warich Wongkunanant",
+      "Kunlaphat Kanthasuwan",
+      "Warit Treerattanaphon",
+      "Sereypagna Nguon"
+    ],
+    "advisor": "Pitaakphong Rattanagraikanakorn; co-advisor Joshua Staubs",
+    "source": "CapstoneDesignSummary - Survidrone.pdf",
+    "pages": "1–3",
+    "caption": "SURVI-DRONE amphibious rescue reconnaissance concept in flight.",
+    "status": "Amphibious vehicle design and simulation"
+  },
+  {
+    "id": "first-response",
+    "name": "First-Response UAS",
+    "category": "Disaster response",
+    "title": "A modular VTOL platform for disaster response",
+    "subtitle": "Deliver supplies. Map hazards. Support responders.",
+    "summary": "This project proposes a hybrid vertical-takeoff-and-landing aircraft for natural-disaster response. A modular payload bay allows the same platform to support supply delivery, aerial reconnaissance, thermal search and rescue, and mapping in places where roads, runways or conventional transport are unavailable.",
+    "metrics": [
+      [
+        "10 kg",
+        "Design payload capacity"
+      ],
+      [
+        "123.1 min",
+        "Predicted full-payload endurance"
+      ],
+      [
+        "202.6 km",
+        "Predicted operational range"
+      ]
+    ],
+    "approach": "The quadplane configuration combines four vertical lift rotors with an aft pusher motor and a 5.534 m fixed wing. Stakeholder needs were translated into design choices through House-of-Quality analysis, followed by weight estimation, aerodynamic CFD, structural FEA and MATLAB/XFLR5 stability and performance modeling. Mission concepts include thermal and optical sensing, mapping and temperature-controlled medical cargo.",
+    "results": "The refined design has a reported maximum takeoff mass of 68.08 kg. Calculations predict approximately 123.1 minutes endurance and 202.6 km range at full payload, exceeding the stated 45-minute and 10 km targets. Static structural analyses report safety factors of 1.82 for the wing skeleton, 1.48 for the motor beam and 3.98 for the full assembly.",
+    "next": "The summary explicitly identifies simulation-only validation, with component-level prototyping underway. Priorities include higher-fidelity aerodynamic studies, transient structural loading, motor/propeller bench tests, hardware-in-the-loop and subscale flight tests, and field validation of the payload mechanism.",
+    "team": [
+      "Chawin Setthaviwat",
+      "Chayanit Hattasereepong",
+      "Kritapas Koottatep",
+      "Srichanapa Rungreongpaitoon",
+      "Thanik Suppagornmongkol"
+    ],
+    "advisor": "Pitaakphong Rattanagraikanakorn; co-advisor Sorasit Thongjeen",
+    "source": "CapstoneDesignSummary - FirstResponderDrone.pdf",
+    "pages": "1–3",
+    "caption": "First-Response UAS operating above a flood-affected community.",
+    "status": "Preliminary design; simulation verified"
+  }
+]

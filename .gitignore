@@ -1,8 +1,8 @@
 .DS_Store
 .env
 .env.*
-node_modules/
 *.log
-/*-preview.png
-/hero-wording-desktop.png
-/mobile-hero-*.png
+**/node_modules/
+/.playwright-cli/
+/output/
+/tmp/

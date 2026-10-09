@@ -1,0 +1,328 @@
+[
+  {
+    "id": "bwb-commercial-aircraft",
+    "year": 2023,
+    "name": "BWB Commercial Aircraft",
+    "category": "Commercial aviation",
+    "title": "Design of a blended-wing-body commercial aircraft",
+    "subtitle": "A short-haul airliner concept shaped around aerodynamic efficiency.",
+    "summary": "This project develops a blended-wing-body commercial aircraft for short-haul service, using the Airbus A320neo as a performance reference. By integrating the lifting body and wing, the team aimed to reduce drag, increase usable internal volume and explore a more fuel-efficient alternative to a conventional tube-and-wing aircraft.",
+    "metrics": [
+      [
+        "200",
+        "Design passenger capacity"
+      ],
+      [
+        "19.62",
+        "Calculated maximum lift-to-drag ratio"
+      ],
+      [
+        "93,121 kg",
+        "Estimated maximum takeoff mass"
+      ]
+    ],
+    "approach": "The design progressed through conceptual, preliminary and detailed phases supported by constraint analysis, weight estimation, CFD and finite-element structural analysis. The integrated cabin, landing gear, propulsion, controls and aircraft structure were assessed against twelve payload, geometry and performance requirements.",
+    "results": "The report's analytical verification records capacity for 200 passengers, five cabin crew and two pilots, a 21-ton traffic load, a calculated maximum lift-to-drag ratio of 19.62 and an estimated maximum takeoff mass of 93,121 kg. The maximum-payload range is calculated as 2,588.6 km. These results come from calculation and simulation; the project did not produce a flight-tested aircraft.",
+    "next": "Future work should refine the structure around identified high-stress regions, evaluate lighter materials, reconcile aerodynamic estimates at higher fidelity and explore lower-emission propulsion. A scaled demonstrator would provide the next meaningful validation step.",
+    "team": [
+      "Shalakorn Teerasukaporn",
+      "Napat Chalermratana",
+      "Natchanok Purivigraipong",
+      "Pongwat Wiwatapinai"
+    ],
+    "advisor": "Pinunta Rojratsirikul",
+    "coAdvisor": "Pitaakphong Rattanagraikanakorn",
+    "reportDate": "2024-04-30",
+    "source": "2023_AeroFinalDesignReport__Design_of_a_Blended_Wing_Body_(BWB)_Commercial_Aircraft.pdf",
+    "sourceSha256": "b15d4711c0a4f8a5e64cc03982758c98cb3ff2fa4cd7207d7bab08fa8cf199e0",
+    "image": "assets/bwb-commercial-aircraft.jpg",
+    "caption": "Isometric CAD view of the final blended-wing-body aircraft. Source: Figure 116, report page 144 (PDF page 169).",
+    "status": "Integrated aircraft design and simulation",
+    "evidence": [
+      {
+        "claim": "Project scope and methodology",
+        "pdfPage": 9,
+        "basis": "report abstract"
+      },
+      {
+        "claim": "Maximum takeoff-mass estimate",
+        "pdfPage": 130,
+        "reportPage": 105,
+        "basis": "iterative weight estimate"
+      },
+      {
+        "claim": "Passenger capacity and aerodynamic performance",
+        "pdfPage": 183,
+        "reportPage": 158,
+        "basis": "analytical design-verification table"
+      }
+    ]
+  },
+  {
+    "id": "almond",
+    "year": 2023,
+    "name": "ALMOND",
+    "category": "Uncrewed aircraft",
+    "title": "Affordable Loitering Munition Ordinance for National Defense",
+    "subtitle": "A low-cost uncrewed-aircraft study with an emphasis on rapid fabrication.",
+    "summary": "ALMOND is an academic uncrewed-aircraft project exploring a low-cost, locally manufacturable platform for reconnaissance and defense applications. The team used House of Quality and Figure of Merit trade studies, aerodynamic and structural analysis, machine-vision development and physical fabrication to produce a full prototype.",
+    "metrics": [
+      [
+        "14.9 kg",
+        "Measured prototype takeoff mass"
+      ],
+      [
+        "30 km",
+        "Design-range target"
+      ],
+      [
+        ">85%",
+        "Reported close-range vision confidence"
+      ]
+    ],
+    "approach": "The prototype combines plywood, balsa wood and additively manufactured parts with a modular fuselage, removable wing and onboard vision system. Computational aerodynamics, structural simulation and a static wing-load test were used to evaluate the design alongside limited object-detection testing.",
+    "results": "The completed prototype had a measured takeoff mass of 14.9 kg. A YOLOv8 test reported more than 85% confidence for a stationary vehicle at less than 20 m, although full operational vision validation remained incomplete. Static loading exposed a weak wing-to-fuselage joint; the left wing subsequently collapsed, preventing the planned flight-test campaign. Propulsion thrust was also not physically tested.",
+    "next": "The report recommends redesigning and retesting the wing joiner, spar and tail-control installation before any progressive ground or flight testing. The 30 km figure is a design target rather than demonstrated range.",
+    "team": [
+      "Thanakrit Maleesut",
+      "Porntreetra Rattanapansri",
+      "Peeravich Chirakunakorn",
+      "Pwint Krittiyanithi",
+      "Phuwanut Pataratawinun",
+      "Watcharaphol Vongnoi"
+    ],
+    "advisor": "Pitaakphong Rattanagraikanakorn",
+    "coAdvisor": null,
+    "reportDate": "2024-04-30",
+    "source": "2023_AeroFinalDesignReport_ALMOND.pdf",
+    "sourceSha256": "62cee610f238a315954853c6f7e9c000d21d3662f9edf72e6b05041b03163dba",
+    "image": "assets/almond-prototype.jpg",
+    "caption": "The fabricated ALMOND prototype. Source: Figure 128, report page 174 (PDF page 184).",
+    "status": "Physical prototype; flight testing not completed",
+    "evidence": [
+      {
+        "claim": "Project purpose and prototype limitation",
+        "pdfPage": 9,
+        "reportPage": 5,
+        "basis": "report abstract"
+      },
+      {
+        "claim": "Prototype mass and incomplete requirements",
+        "pdfPage": 195,
+        "reportPage": 185,
+        "basis": "measurement and verification table"
+      },
+      {
+        "claim": "Structural failure and validation status",
+        "pdfPage": 210,
+        "reportPage": 200,
+        "basis": "report conclusion"
+      }
+    ]
+  },
+  {
+    "id": "fishme",
+    "year": 2023,
+    "name": "FISH.me",
+    "category": "Marine sustainability",
+    "title": "An autonomous UAV and sonar network for coastal fish monitoring",
+    "subtitle": "Turning fish-aggregating devices into connected observation points.",
+    "summary": "FISH.me combines a fixed-wing UAV with sonar modules installed at fish-aggregating devices. The aircraft follows autonomous waypoints, collects fish-density data wirelessly and returns the information to a ground station, reducing the need for fishermen to make repeated offshore inspection trips.",
+    "metrics": [
+      [
+        "13.53 s",
+        "Maximum reported data-transfer time"
+      ],
+      [
+        "65 min",
+        "Calculated motor runtime at cruise"
+      ],
+      [
+        "฿1.7M/year",
+        "Estimated operating-cost savings"
+      ]
+    ],
+    "approach": "The system pairs a high-wing, V-tail, taildragger UAV with a layered, waterproof sonar enclosure positioned at each monitoring site. CFD, FEA, XFLR5 and MATLAB analyses were combined with communication, avionics and structural subsystem tests. A Pixhawk flight computer supports waypoint navigation and return-to-home behavior.",
+    "results": "The final report gives a 3.6 m wingspan, approximately 15.36 kg design mass and a calculated runtime of about 65 minutes at a 28 m/s cruise condition. The Wi-Fi sonar link transferred data in up to 13.53 seconds, excluding connection time. The report estimates roughly 1.7 million baht in annual savings, but identifies waterproofing, heat transfer, wing integrity and control-surface sizing as areas needing more validation.",
+    "next": "Next steps include full integrated sea-environment trials, waterproofing and thermal testing of the sonar unit, flight validation of endurance and autonomous navigation, and structural refinement of the wing and ruddervators.",
+    "team": [
+      "Napatr Porntavornvittaya",
+      "Trin Uthaisang",
+      "Teetat Techasrivorakul",
+      "Pasin Manaspiya",
+      "Rachaya Deelertkulchai",
+      "Ratchagrit Seelsut",
+      "Swiss Tangsatjatham"
+    ],
+    "advisor": "Joshua Staubs",
+    "coAdvisor": "Pitaakphong Rattanagraikanakorn",
+    "reportDate": "2024-04-30",
+    "source": "2023_AeroFinalDesignReport_FISHMe.pdf",
+    "sourceSha256": "8b3ce193de637601b2caa20a68edb1f787b8acba851466821dd0babbec3167a1",
+    "sourceVariants": [
+      {
+        "filename": "2023_AeroFinalDesignReport_FISHMe - Compressed.pdf",
+        "sha256": "98e060579f36316c06feefbf9d3beb9c66e16d2eb67cd1efdb8f3049908c8726",
+        "note": "Compressed edition of the same project report; pagination differs from the full-resolution file."
+      }
+    ],
+    "image": "assets/fishme-cover-v2.webp",
+    "caption": "FISH.me fixed-wing UAV concept in flight.",
+    "status": "Integrated system design with subsystem testing",
+    "evidence": [
+      {
+        "claim": "Purpose, projected savings and project methodology",
+        "pdfPage": 7,
+        "basis": "full-resolution report abstract"
+      },
+      {
+        "claim": "Integrated UAV and sonar architecture",
+        "pdfPage": 205,
+        "reportPage": 205,
+        "basis": "full-resolution final-design section"
+      },
+      {
+        "claim": "Final dimensions, transfer time and limitations",
+        "pdfPage": 294,
+        "reportPage": 294,
+        "basis": "full-resolution report conclusion"
+      }
+    ]
+  },
+  {
+    "id": "airmed",
+    "year": 2023,
+    "name": "AirMED",
+    "category": "Medical logistics",
+    "title": "A hybrid-VTOL aircraft for time-critical medical delivery",
+    "subtitle": "Connecting Bangkok hospitals when road traffic costs precious time.",
+    "summary": "AirMED proposes a hybrid fixed-wing VTOL aircraft for transporting organs and other time-sensitive medical supplies between hospitals in Bangkok. The design combines vertical takeoff with efficient wing-borne cruise, a protected payload compartment, navigation sensors and a modular airframe.",
+    "metrics": [
+      [
+        "3 kg",
+        "Payload demonstrated in VTOL testing"
+      ],
+      [
+        ">75 km",
+        "Calculated single-flight range"
+      ],
+      [
+        "60–70 dB",
+        "Reported measured noise"
+      ]
+    ],
+    "approach": "The team developed a wooden and additively manufactured prototype with separate VTOL and cruise propulsion, a Pixhawk-class avionics architecture, GPS, LiDAR and temperature sensing. Aerodynamic and structural analysis, propulsion selection, payload-box development and hover testing supported the integrated design.",
+    "results": "The prototype demonstrated hover and movement in four horizontal directions while carrying the 3 kg payload in VTOL testing. ECALC analysis predicts more than 75 km range, while measured noise is reported at roughly 60–70 dB. Important requirements remained unmet: autonomous delivery was not demonstrated, the 0–4 °C cold-chain test was not completed, the payload was not proven in forward flight and the fabricated aircraft reached 18.19 kg—8.96% above the refined estimate.",
+    "next": "Priorities include weight reduction, reliable GPS and flight-controller integration, autonomous forward-flight trials, complete cold-chain and ingress-protection testing, and structural refinement using more consistent materials.",
+    "team": [
+      "Kittiphit Rojsasitham",
+      "Nattiya Duangprateep",
+      "Nitipote Seubhanich",
+      "Fahsai Ngamtrairai",
+      "Mohamed Faheem Mohamed Sathik"
+    ],
+    "advisor": "Joshua Staubs",
+    "coAdvisor": null,
+    "reportDate": "2024-04-30",
+    "source": "2023_AeroProjectFinalDesign_AirMed.pdf",
+    "sourceSha256": "755c4fbdad07904caf95284343b5c11cb277dd1720718c97e3c9e1940a71791b",
+    "image": "assets/airmed-uav.jpg",
+    "caption": "Integrated AirMED hybrid-VTOL design. Source: Figure 211, report page 298 (PDF page 327).",
+    "status": "Fabricated prototype with VTOL testing",
+    "evidence": [
+      {
+        "claim": "Medical-logistics motivation",
+        "pdfPage": 9,
+        "basis": "report abstract"
+      },
+      {
+        "claim": "Payload, autonomy and range verification status",
+        "pdfPage": 301,
+        "reportPage": 272,
+        "basis": "test results and computational verification"
+      },
+      {
+        "claim": "Measured noise and VTOL behavior",
+        "pdfPage": 303,
+        "reportPage": 274,
+        "basis": "physical testing"
+      },
+      {
+        "claim": "Final prototype status",
+        "pdfPage": 327,
+        "reportPage": 298,
+        "basis": "report conclusion"
+      }
+    ]
+  },
+  {
+    "id": "stars",
+    "year": 2023,
+    "name": "STARS",
+    "category": "Space exploration",
+    "title": "Sample Tube Autonomous Recovery System",
+    "subtitle": "A coaxial Mars helicopter designed to find and recover cached samples.",
+    "summary": "STARS investigates how an autonomous rotorcraft could support a Mars Sample Return mission by locating, collecting and transporting sample tubes deposited by the Perseverance rover. The concept combines a coaxial helicopter, wheeled landing gear, machine vision, simulated flight control and a Mars-analogue environment.",
+    "metrics": [
+      [
+        "99%",
+        "Reported sample-tube test precision"
+      ],
+      [
+        "≤0.25 m",
+        "Simulated landing-position error"
+      ],
+      [
+        "12 N",
+        "Simulated Mars-atmosphere lift"
+      ]
+    ],
+    "approach": "The final vehicle uses dual coaxial rotors, CFRP structures, wheeled landing gear, solar charging and an imaging and recovery architecture. Simulink and Unreal Engine provide progressively higher-fidelity vehicle and environment simulation, while a machine-learning detector was trained and tested with simulated and Mars-analogue imagery.",
+    "results": "The detection model reports 99% sample-tube precision on its test set. Control simulation records landing error at or below 0.25 m, and the propulsion model reports 12 N of lift in the modeled Martian atmosphere. A simulated flight-time requirement above 30 seconds passed, while forward-flight coverage, long-term reliability, communications and the recovery mechanism remained incomplete or outside the validated scope.",
+    "next": "The report calls for real-world structural and flight testing, integrated testing of vision with vehicle control, communications analysis, a completed tube-recovery mechanism and validation that the simulated load and power margins carry into hardware.",
+    "team": [
+      "Puwit Chaowanapreecha",
+      "Kittanu Hongsevihok",
+      "Mongkolpat Maneepairoj",
+      "Thitah Vajropala",
+      "Sirikorn Khumnil",
+      "Puree Muenvanichkul",
+      "Thananin Sajjachayapun",
+      "Siriwat Sirirattanachaikul"
+    ],
+    "advisor": "Pitaakphong Rattanagraikanakorn",
+    "coAdvisor": null,
+    "reportDate": "2024-04-30",
+    "source": "2023_AeroProjectFinalDesign_Sample_Tube_Autonomous_Recovery_System_(STARS).pdf",
+    "sourceSha256": "088348a74d45a3307eb7de9754c7decf3a8be713c240cee01abaf792e24b932e",
+    "image": "assets/stars-mars-helicopter.jpg",
+    "caption": "Rendered STARS coaxial helicopter on the Martian surface. Source: Figure 254, report page 296 (PDF page 314).",
+    "status": "Integrated concept, simulation and vision-system testing",
+    "evidence": [
+      {
+        "claim": "Mission concept and development approach",
+        "pdfPage": 13,
+        "reportPage": 9,
+        "basis": "report abstract"
+      },
+      {
+        "claim": "Machine-vision precision",
+        "pdfPage": 304,
+        "reportPage": 286,
+        "basis": "validation and test-set results"
+      },
+      {
+        "claim": "Integrated vehicle configuration",
+        "pdfPage": 313,
+        "reportPage": 295,
+        "basis": "final-design section"
+      },
+      {
+        "claim": "Control, lift and structural verification status",
+        "pdfPage": 322,
+        "reportPage": 304,
+        "basis": "simulation verification table"
+      }
+    ]
+  }
+]

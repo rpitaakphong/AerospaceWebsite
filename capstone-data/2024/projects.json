@@ -1,0 +1,316 @@
+[
+  {
+    "id": "ssuas",
+    "year": 2024,
+    "name": "SSUAS",
+    "category": "Uncrewed aircraft",
+    "title": "Small Stealth Unmanned Aerial System",
+    "subtitle": "A blended-wing-body study in low-observability aircraft design.",
+    "summary": "The SSUAS project explores a compact blended-wing-body aircraft designed to reduce radar, infrared, radio-frequency and acoustic signatures. The team used House of Quality and Figure of Merit trade studies, aerodynamic and structural simulation, analytical sizing and preliminary physical prototyping to integrate the airframe, propulsion, avionics and modular payload architecture.",
+    "metrics": [
+      [
+        "15",
+        "Simulated structural safety factor"
+      ],
+      [
+        "1.071 mm",
+        "Maximum simulated displacement"
+      ],
+      [
+        ">99%",
+        "Reported simulated RCS reduction"
+      ]
+    ],
+    "approach": "A blended-wing-body configuration was selected to combine aerodynamic efficiency with a reduced radar signature. The intended structure uses a carbon-fiber outer skin and aluminum internal members; a full-scale MDF internal-structure model was built to check assembly. Fusion 360 structural analysis and X-band radar-cross-section estimates were used alongside performance calculations.",
+    "results": "The report records a simulated safety factor of 15 and maximum displacement of 1.071 mm under the evaluated loads. Its verification table estimates radar cross-section at approximately 0.18 m², more than 99.9% below the report's raw baseline estimate. The team also built a 1:1 MDF internal-structure demonstrator. Infrared-signature reduction, collision avoidance, return-to-home behavior and yaw stability remained incomplete or required further development.",
+    "next": "The report recommends further infrared testing, flight-safety functions, yaw-stability refinement and broader physical validation. The headline performance figures are simulation and analysis results, not evidence of a fully flight-tested aircraft.",
+    "team": [
+      "Korawit Jaiphisut",
+      "Suwapitch Sirisamphant",
+      "Panmile Jatupanyaporn Chatiketu",
+      "Panwara Moophung"
+    ],
+    "advisor": "Pitaakphong Chaowanapreecha",
+    "coAdvisor": "Sorasit Thongjeen",
+    "reportDate": "2025-05-05",
+    "source": "2024_AeroProjectFinalReport__SSUAS__compressed_(1)-670811-17476450051330.pdf",
+    "sourceSha256": "850292e79f0b09372d3134d42f47fce9cd7e41f3efcafad1fdd1937b3e7a0553",
+    "image": "assets/ssuas-internal-structure.jpg",
+    "caption": "Full-scale MDF internal-structure demonstrator. Source: Figure 50, report page 97 (PDF page 100).",
+    "status": "Integrated design, simulation and structural demonstrator",
+    "evidence": [
+      {
+        "claim": "Project scope and design methodology",
+        "pdfPage": 5,
+        "reportPage": 4,
+        "basis": "report abstract"
+      },
+      {
+        "claim": "Structural and radar-cross-section results",
+        "pdfPage": 101,
+        "reportPage": 98,
+        "basis": "simulation and report verification table"
+      },
+      {
+        "claim": "Limitations and remaining development",
+        "pdfPage": 115,
+        "reportPage": 112,
+        "basis": "report conclusion"
+      }
+    ]
+  },
+  {
+    "id": "mortar-glide-kit",
+    "year": 2024,
+    "name": "Mortar Glide Kit",
+    "category": "Flight systems",
+    "title": "A compact folding-wing glide-kit concept",
+    "subtitle": "Deployable aerodynamics, guidance and structures in one compact airframe.",
+    "summary": "Developed with RV CONNEX, this project studies an air-deployed glide kit for a standard 60 mm mortar round. Its engineering focus is a compact folding-wing configuration, lightweight composite structure, V-tail control, GNSS-based navigation and an integrated flight-control architecture.",
+    "metrics": [
+      [
+        "35 km",
+        "Calculated maximum glide distance"
+      ],
+      [
+        "7.8",
+        "Calculated lift-to-drag ratio"
+      ],
+      [
+        "2.63 kg",
+        "Estimated total mass"
+      ]
+    ],
+    "approach": "The final concept uses a high-mounted rectangular SD7043 wing with a 58 cm span, folding spring deployment and solenoid locking. A RAF 27 V-tail provides pitch and yaw control. The architecture combines a CUAV X7+ flight controller, GNSS, pitot-static sensing, telemetry and digital servos with CFRP plates and skins, EPS wing cores, aluminum spacers and 3D-printed ABS parts.",
+    "results": "Analysis predicts approximately 35 km of glide from 4.5 km altitude, a lift-to-drag ratio near 7.8 and a total estimated mass of 2.63 kg including the 1.5 kg payload used in the final sizing. Structural analysis reports a minimum safety factor above the 3.75 requirement; the fuselage plate case is reported at 4.912. These are design and simulation results rather than demonstrated flight performance.",
+    "next": "The report recommends additional finite-element work on thinner fuselage plates, alternative wing-core materials, vibration testing of the carrying mechanism and full physical and flight validation.",
+    "team": [
+      "Chote Tharachatr",
+      "Natthapat Sawetsutthisirikul",
+      "Nawakorn Kiatgraigangwan",
+      "Passawish Choojirawong",
+      "Ramida Rungroj",
+      "Eakkasit Xu"
+    ],
+    "advisor": "Pitaakphong Pattanagraikanakorn",
+    "coAdvisor": "Joshua Kyle Staubs",
+    "reportDate": "2025-05-05",
+    "source": "2024_FinalReport_MortarGlideKit-670185-17477562551011.pdf",
+    "sourceSha256": "f3a963ffd6a3a99de98b1c178709967523efbe04bc84ba003dbfc1cc30e0534b",
+    "image": "assets/mortar-glide-kit-isometric.jpg",
+    "caption": "Isometric CAD view of the integrated folding-wing concept. Source: Figure 117, report page 140 (PDF page 156).",
+    "status": "Integrated concept and simulation",
+    "evidence": [
+      {
+        "claim": "Project purpose and collaboration",
+        "pdfPage": 4,
+        "basis": "report abstract"
+      },
+      {
+        "claim": "Final configuration, mass and predicted performance",
+        "pdfPage": 155,
+        "reportPage": 139,
+        "basis": "calculation, simulation and final-design summary"
+      },
+      {
+        "claim": "Structural optimization recommendations",
+        "pdfPage": 165,
+        "reportPage": 149,
+        "basis": "report recommendation"
+      }
+    ]
+  },
+  {
+    "id": "medical-delivery-drone",
+    "year": 2024,
+    "name": "Medical Delivery Drone",
+    "category": "Urban logistics",
+    "title": "An autonomous multirotor for medical logistics",
+    "subtitle": "Moving essential supplies above Bangkok traffic.",
+    "summary": "The Medical Delivery Drone is a quadcopter developed to transport non-urgent medical supplies through congested urban environments. The project integrates a Pixhawk-based flight-control system, GPS navigation, automated status reporting, emergency behaviors and a dedicated medical payload box.",
+    "metrics": [
+      [
+        "1.5 kg",
+        "Flight-tested payload"
+      ],
+      [
+        ">10 min",
+        "Demonstrated endurance"
+      ],
+      [
+        "300 m",
+        "Tested autonomous radius"
+      ]
+    ],
+    "approach": "The team selected and sized the airframe, propulsion, LiPo battery and Pixhawk-based avionics, then developed autonomous control with ArduPilot. Indoor and outdoor testing covered stability, telemetry, manual control, waypoint missions, emergency protocols and payload carriage.",
+    "results": "Testing confirmed carriage of a 1.5 kg payload, endurance beyond 10 minutes, controlled manual flight to approximately 480 m and autonomous waypoint missions within a 300 m radius. During a payload flight, altitude variation remained within the report's 3 m criterion. The project notes that payload-box clearance could destabilize the aircraft after touchdown and that telemetry constrained the autonomous test radius.",
+    "next": "Recommended improvements include longer-range telemetry, revised landing-gear or payload geometry and a balancing counterweight. The next validation stage should repeat autonomous payload missions after the landing interface is refined.",
+    "team": [
+      "Achitphol Poollarp",
+      "Maylinya Thienchaikit",
+      "Ginnawatra Paovarojkit",
+      "Teetat Pangsrinon",
+      "Chayanon Saengjan"
+    ],
+    "advisor": "Niphon Wansophark",
+    "coAdvisor": "Sorasit Thongjeen",
+    "reportDate": "2025-04-22",
+    "source": "Final Design Report - Average.pdf",
+    "sourceSha256": "23fb4a01c92ceb0f6fe2a218d0c117f468c170ffd798978d8e997671bb263e7b",
+    "image": "assets/medical-delivery-drone.jpg",
+    "caption": "Completed medical-delivery quadcopter. Source: Figure 13-1, report/PDF page 103.",
+    "status": "Flight-tested prototype",
+    "evidence": [
+      {
+        "claim": "Scope and headline test results",
+        "pdfPage": 6,
+        "reportPage": 6,
+        "basis": "report abstract"
+      },
+      {
+        "claim": "Payload flight behavior",
+        "pdfPage": 144,
+        "reportPage": 144,
+        "basis": "flight-test data"
+      },
+      {
+        "claim": "Payload and landing limitation",
+        "pdfPage": 146,
+        "reportPage": 146,
+        "basis": "verification summary"
+      },
+      {
+        "claim": "Overall validation status",
+        "pdfPage": 152,
+        "reportPage": 152,
+        "basis": "report conclusion"
+      }
+    ]
+  },
+  {
+    "id": "skyreach-horizon",
+    "year": 2024,
+    "name": "SkyReach Horizon",
+    "category": "Space systems",
+    "title": "A modular hybrid sounding rocket for CanSat missions",
+    "subtitle": "Adjustable altitude, reusable architecture and an educational mission platform.",
+    "summary": "SkyReach Horizon develops a hybrid sounding-rocket architecture for CanSat missions. The integrated design emphasizes adjustable apogee, modularity, recovery, reusable subsystems and compliance with Thai and international guidance, supported by CAD, aerodynamic and structural analysis, avionics prototyping and recovery-system tests.",
+    "metrics": [
+      [
+        "16,748 m",
+        "Simulated apogee"
+      ],
+      [
+        "Mach 1.782",
+        "Simulated maximum speed"
+      ],
+      [
+        "9.69 m/s",
+        "Simulated ground-impact speed"
+      ]
+    ],
+    "approach": "The team combined hybrid propulsion, a modular connector, throttle control, avionics and telemetry, staged recovery and radial CanSat deployment. CAD and ANSYS models were paired with trajectory simulation, electronics prototypes and practical recovery-sequence testing.",
+    "results": "The final simulation table reports a 16,748 m apogee, Mach 1.782 maximum speed, 4.0–11.0 calibers of stability margin and 9.69 m/s ground-impact speed. The recovery sequence received practical testing, but the report states that full experimental validation of the propulsion system remained incomplete. Accordingly, the apogee and speed figures should be presented as simulated performance.",
+    "next": "Priorities are propulsion testing, further prototyping of the recovery and payload-deployment mechanisms, and integrated real-world validation. The existing work provides a detailed design foundation rather than a completed launch campaign.",
+    "team": [
+      "Chayadhorn Thanachaipanich",
+      "Nattaphan Jungjiranon",
+      "Tanin Limpabandh",
+      "Tarakorn Swamivas",
+      "Peemanus Ritthidetch",
+      "Bhu Hutchesson"
+    ],
+    "advisor": "Pitaakphong Rattanagraikanakorn",
+    "coAdvisor": "Jeerasak Pitakarnnop",
+    "reportDate": "2025-05-05",
+    "source": "Final Design Report - High.pdf",
+    "duplicateSources": [
+      "SkyReachHor_Eng_Project_Final_report-655953-17477585387480.pdf"
+    ],
+    "sourceSha256": "e3232c04d850fc281b6ddb330e97391869a73ab8c6363383578d01c94463ff82",
+    "image": "assets/skyreach-rocket-configuration.jpg",
+    "caption": "Integrated rocket configuration and internal layout. Source: Figure 167, report/PDF page 174.",
+    "status": "Integrated design, simulation and subsystem testing",
+    "evidence": [
+      {
+        "claim": "Integrated system description",
+        "pdfPage": 174,
+        "reportPage": 174,
+        "basis": "final-design summary"
+      },
+      {
+        "claim": "Predicted flight-performance metrics",
+        "pdfPage": 175,
+        "reportPage": 175,
+        "basis": "simulation summary table"
+      },
+      {
+        "claim": "Validation status and remaining work",
+        "pdfPage": 218,
+        "reportPage": 218,
+        "basis": "final remarks"
+      }
+    ]
+  },
+  {
+    "id": "rv-pathum-01",
+    "year": 2024,
+    "name": "RV Pathum 01",
+    "category": "Uncrewed aircraft",
+    "title": "Performance evaluation and redesign of a blended-wing-body UAV",
+    "subtitle": "Reworking endurance, payload and stability around an efficient flying-wing platform.",
+    "summary": "Developed with RV CONNEX, this project evaluates and redesigns the RV Pathum 01 blended-wing-body UAV for medium-haul operations. The team refined the aircraft configuration, structure, propulsion, energy system and elevon controls using literature benchmarking, CAD, aerodynamic simulation and structural analysis.",
+    "metrics": [
+      [
+        "4 h",
+        "Predicted endurance"
+      ],
+      [
+        "2 kg",
+        "Design payload"
+      ],
+      [
+        "15 kg",
+        "Maximum takeoff-mass limit"
+      ]
+    ],
+    "approach": "The redesign retains a tailless blended-wing-body layout with electric pusher propulsion and combined pitch-and-roll elevons. Eppler 355 wing sections and an Eppler 266 center section were selected, with OpenVSP/VSPAero and structural simulation used to refine aerodynamic efficiency, stability, controls and composite construction.",
+    "results": "The report predicts four hours of endurance while carrying a 2 kg payload, compared with the earlier aircraft's reported 40 minutes without payload. Simulations indicate favorable lift-to-drag behavior and static stability through most of the intended envelope, while the control study identifies reduced elevon effectiveness near stall. These results are analytical and simulated; the report does not document a flight-tested redesigned aircraft.",
+    "next": "The next stage should fabricate a representative airframe, validate mass and energy estimates, test the propulsion system and elevons, and conduct progressive ground and flight tests—especially around high-angle-of-attack control behavior.",
+    "team": [
+      "Pattawee Anantawan",
+      "Phurich Penpun",
+      "Kanin Wechthanet",
+      "Taksin Unnopporn",
+      "Pasith Disabaedya"
+    ],
+    "advisor": "Joshua Kyle Staubs",
+    "coAdvisor": "Pitaakphong Rattanagraikanakorn",
+    "reportDate": "2025-05-05",
+    "source": "Final Design Report - Low.pdf",
+    "sourceSha256": "69827a0be7924c9638a91e60e46c6ee6fce9ceeb4ea2d9253892796c9ce35422",
+    "image": "assets/rv-pathum-top-view.jpg",
+    "caption": "Top view of the redesigned blended-wing-body configuration. Source: Figure 30, report/PDF page 70.",
+    "status": "Redesign and simulation study",
+    "evidence": [
+      {
+        "claim": "Project scope and methodology",
+        "pdfPage": 6,
+        "reportPage": 6,
+        "basis": "report abstract"
+      },
+      {
+        "claim": "Endurance, payload and comparative performance",
+        "pdfPage": 160,
+        "reportPage": 160,
+        "basis": "analysis summarized in report conclusion"
+      },
+      {
+        "claim": "Elevon-control limitation near stall",
+        "pdfPage": 150,
+        "reportPage": 150,
+        "basis": "aerodynamic simulation"
+      }
+    ]
+  }
+]

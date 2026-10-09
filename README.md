@@ -1,7 +1,11 @@
-# Aerospace Engineering homepage preview
+# Aerospace Engineering website work
 
-Responsive local homepage preview for the Aerospace Engineering Program at Chulalongkorn University.
+Source and local previews for the Aerospace Engineering Program at Chulalongkorn University.
 
-To view it locally, serve this directory over HTTP (for example, `python3 -m http.server 8900`) and open `http://127.0.0.1:8900/`. The Latest News section requests the three newest posts in the website's WordPress News category and falls back to saved preview cards when the feed is unavailable.
+- `homepage-preview/` — responsive homepage prototype. Serve this folder over HTTP to preview it locally. Its News section reads the live WordPress News feed and uses saved cards when the feed is unavailable.
+- `capstone-modern/` — Capstone Project showcase development version, with project data and design assets.
+- `capstone-data/` — source project records and imagery used for the showcase.
+- `wordpress/aero-capstone-showcase/` — installable WordPress plugin source for the Capstone showcase; `wordpress/aero-capstone-showcase.zip` is a packaged build.
+- `wordpress-plugins/` — additional WordPress plugin source and packaged builds.
 
-This repository is a design preview, not the live WordPress/Elementor homepage. Publishing changes to GitHub does not update the live website.
+Pushing this repository to GitHub does not deploy changes to the live WordPress site. The homepage preview remains a prototype until it is rebuilt in Elementor; WordPress plugin updates must be installed separately.

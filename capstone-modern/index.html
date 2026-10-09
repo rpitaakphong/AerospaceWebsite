@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aerospace Engineering capstone projects from academic years 2023–2025 at Chulalongkorn University.">
+  <title>Capstone Flight Deck | Aerospace Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?ver=1.0.10">
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+  <div class="capstone-archive">
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="kicker"><span>Capstone archive</span> / Academic years 2023—2025</p>
+          <h1 id="page-title">Aerospace Capstone<br><em>Project Showcase</em></h1>
+          <p class="hero-lede">The Aerospace Capstone Project is the final-year design experience where student teams apply aerodynamics, structures, propulsion, flight systems and engineering analysis to ambitious aircraft and spacecraft challenges. This archive presents their concepts, prototypes, results and next steps.</p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#projects">Explore missions <span aria-hidden="true">↓</span></a>
+            <span>15 projects / 3 academic years</span>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <picture>
+            <source srcset="assets/capstone-hero-collage-v2.webp" type="image/webp">
+            <img src="assets/capstone-hero-collage-source-v2.png" alt="Editorial aerospace collage featuring a tailless blended-wing aircraft, Mars rotorcraft, lunar hopper, sounding rocket, amphibious rescue aircraft, structural components and avionics." width="1024" height="1536" loading="eager" fetchpriority="high" decoding="async">
+          </picture>
+          <figcaption class="hero-stats" aria-label="Archive statistics">
+            <span><strong id="archive-project-count">15</strong> projects</span>
+            <span><strong>03</strong> academic years</span>
+            <span><strong id="archive-student-count">81</strong> student engineers</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="mission-index" id="projects" aria-labelledby="missions-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Flight deck / 01</p>
+            <h2 id="missions-title">Select a mission</h2>
+          </div>
+          <p>Select an academic year, filter by mission environment or search across project names, systems and objectives.</p>
+        </div>
+
+        <div class="year-selector" aria-label="Select academic year">
+          <p>Academic year</p>
+          <div class="year-tabs" role="group">
+            <button class="year-tab is-active" type="button" data-year="All" aria-pressed="true">All years <span data-year-count="All">15</span></button>
+            <button class="year-tab" type="button" data-year="2025" aria-pressed="false">2025 <span data-year-count="2025">05</span></button>
+            <button class="year-tab" type="button" data-year="2024" aria-pressed="false">2024 <span data-year-count="2024">05</span></button>
+            <button class="year-tab" type="button" data-year="2023" aria-pressed="false">2023 <span data-year-count="2023">05</span></button>
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="filters" role="group" aria-label="Filter by mission domain">
+            <button class="filter is-active" type="button" data-filter="All" aria-pressed="true">All missions <span data-domain-count="All">15</span></button>
+            <button class="filter" type="button" data-filter="Earth systems" aria-pressed="false">Earth systems <span data-domain-count="Earth systems">12</span></button>
+            <button class="filter" type="button" data-filter="Space systems" aria-pressed="false">Space systems <span data-domain-count="Space systems">03</span></button>
+          </div>
+          <label class="search-box">
+            <span class="sr-only">Search missions</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
+            <input id="project-search" type="search" placeholder="Search mission systems…" autocomplete="off">
+          </label>
+        </div>
+
+        <p class="results-line" aria-live="polite"><span id="result-count">15</span> projects in view</p>
+        <div class="project-grid" id="project-grid"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span>NO SIGNAL</span>
+          <h3>No missions matched that search.</h3>
+          <button type="button" id="clear-search">Reset mission filters</button>
+        </div>
+      </section>
+
+      <section class="methodology" aria-labelledby="method-title">
+        <div>
+          <p class="kicker">Engineering record / 02</p>
+          <h2 id="method-title">Concepts with context.</h2>
+        </div>
+        <div class="method-copy">
+          <p>These pages distinguish requirements, calculations, simulations and experimental measurements. Each mission record connects the design intent to reported evidence and identifies what remains to be validated.</p>
+          <div class="method-tags"><span>CFD</span><span>FEA</span><span>Flight dynamics</span><span>Systems integration</span><span>Prototype testing</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div><strong>Aerospace Engineering</strong><br>International School of Engineering<br>Chulalongkorn University</div>
+      <p>Past Capstone Design Projects · Academic years 2023—2025</p>
+    </footer>
+  </div>
+  <script src="app.js?ver=1.0.10" defer></script>
+</body>
+</html>
